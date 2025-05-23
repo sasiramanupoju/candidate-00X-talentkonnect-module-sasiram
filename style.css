@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', 'Ubuntu', sans-serif;
+    background-color: #F5F5F5;
+  }
+  
+.profiledetails{
+  border:2px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  width:fit-content;
+  background-color: aliceblue;
+}
+
+h1{
+  color: #F4511E;
+}
+
+img {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+.progressbardetails{
+  border:1px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  width:auto;
+  background-color: aliceblue;
+}
+
+.outerprogressbar{
+  border:1px solid black;
+  background-color: #F5F5F5;
+  border-radius: 50px;
+}
+
+.innerprogressbar{
+  background-color: #333333;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+}
+
+.progressbarbutton{
+  padding: 15px;
+  border:1px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.progressbarbutton:hover{
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.progressbarbutton:active{
+  background-color:#00796B;
+  color: aliceblue;
+  border-radius: 20px;
+  cursor:not-allowed;
+}
+
+.videoembedding{
+  border:1px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  width: 800px;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+iframe{
+  border-radius: 20px;
+  width: 700px;
+  height: 350px;
+}
+
+.row{
+  margin: 30px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.column{
+  border: 1px solid black;
+  background-color: white;
+  width: 100px;
+  height: 200px;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  float: left;
+}
+
+.column:hover{
+  background-color: antiquewhite;
+  cursor: grab;
+}
+
+.column:active{
+  cursor: grabbing;
+}
+
+.column button{
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 15px;;
+}
+
+.column button:hover{
+  border-radius: 10px;
+  background-color: #00796B;
+  color: #F5F5F5;
+  cursor: pointer;
+}
+
+footer{
+  
+}
